@@ -1,0 +1,8 @@
+# a path:
+/*
+  # headers for that path:
+  Content-Security-Policy: script-src 'self'
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosnif
+  Referrer-Policy: no-referrer
+ 

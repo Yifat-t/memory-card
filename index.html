@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+    <title>Memory Game</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-container">
+	<header id="header">
+			<h2><a href="#">Honey Inc.</a></h2>
+			<div id="logo">
+				<img src="img/logo.jpg" width="150" alt="logo"/>
+			</div>
+			<nav id="main-menu">
+				<h3 class="hidden">Main navigation</h3>
+				<div id="mySidebar" class="sidebar">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>						
+			</nav>
+	</header>
+	<div id="memory">
+		<aside  class="page-container" >
+			<div id="bees">
+				<img  id="bzz1" src="img/bee.jpg" width="100" alt="bee1">
+				<img  id="bzz2" src="img/bee.jpg" width="100" alt="bee2">
+				<img  id="bzz3" src="img/bee.jpg" width="100" alt="bee3">
+			</div>
+		</aside>
+		<div  class="page-container" id="main">
+			<main>
+				<button class="openbtn" onclick="openNav()">☰ Open Sidebar</button> 
+				<h1>Memory game</h1>
+				<div class="memory-game">
+					<div class="memory-card" data-picture="1" >
+						<img class="front-face" src="img/1.jpg" alt="beehive"/>
+						<img class="back-face" src="img/theme1.jpg" alt="honey-back"/>
+					</div>
+					<div class="memory-card" data-picture="1">
+						<img class="front-face" src="img/1.jpg" alt="beehive"/>
+						<img class="back-face" src="img/theme1.jpg" alt="honey-back"/>
+					</div>
+					<div class="memory-card" data-picture="2">
+						<img class="front-face" src="img/2.jpg" alt="bee"/>
+						<img class="back-face" src="img/theme1.jpg" alt="honey-back"/>
+					</div>
+					<div class="memory-card" data-picture="2">
+						<img class="front-face" src="img/2.jpg" alt="bee"/>
+						<img class="back-face" src="img/theme1.jpg" alt="honey-back"/>
+					</div>
+					<div class="memory-card" data-picture="3">
+						<img class="front-face" src="img/3.jpg" alt="comb"/>
+						<img class="back-face" src="img/theme1.jpg" alt="honey-back"/>
+					</div>
+					<div class="memory-card" data-picture="3">
+						<img class="front-face" src="img/3.jpg" alt="comb"/>
+						<img class="back-face" src="img/theme1.jpg" alt="honey-back"/>
+					</div>
+					<div class="memory-card" data-picture="4">
+						<img class="front-face" src="img/4.jpg" alt="dip"/>
+						<img class="back-face" src="img/theme1.jpg" alt="honey-back"/>
+					</div>
+					<div class="memory-card" data-picture="4">
+						<img class="front-face" src="img/4.jpg" alt="dip"/>
+						<img class="back-face" src="img/theme1.jpg" alt="honey-back"/>
+					</div>
+					<div class="memory-card" data-picture="5">
+						<img class="front-face" src="img/5.jpg" alt="drop"/>
+						<img class="back-face" src="img/theme1.jpg" alt="honey-back"/>
+					</div>
+					<div class="memory-card" data-picture="5">
+						<img class="front-face" src="img/5.jpg" alt="drop"/>
+						<img class="back-face" src="img/theme1.jpg" alt="honey-back"/>
+					</div>
+					<div class="memory-card" data-picture="6">
+						<img class="front-face" src="img/6.jpg" alt="hive"/>
+						<img class="back-face" src="img/theme1.jpg" alt="honey-back"/>
+					</div>
+					<div class="memory-card" data-picture="6">
+						<img class="front-face" src="img/6.jpg" alt="hive"/>
+						<img class="back-face" src="img/theme1.jpg" alt="honey-back"/>
+					</div>
+					<div class="memory-card" data-picture="7">
+						<img class="front-face" src="img/7.jpg" alt="honey1"/>
+						<img class="back-face" src="img/theme1.jpg" alt="honey-back"/>
+					</div>
+					<div class="memory-card" data-picture="7">
+						<img class="front-face" src="img/7.jpg" alt="honey1"/>
+						<img class="back-face" src="img/theme1.jpg" alt="honey-back"/>
+					</div>
+					<div class="memory-card" data-picture="8">
+						<img class="front-face" src="img/8.jpg" alt="honey2"/>
+						<img class="back-face" src="img/theme1.jpg" alt="honey-back"/>
+					</div>
+					<div class="memory-card" data-picture="8">
+						<img class="front-face" src="img/8.jpg" alt="honey2"/>
+						<img class="back-face" src="img/theme1.jpg" alt="honey-back"/>
+					</div>
+				</div>
+			</main>
+		</div>
+	</div>
+	<aside id="message">
+		<h3>Congratulations! you won!</h3>
+		<button type="button" value="Reload Page" onClick="document.location.reload(true)">Play Again</button>
+	</aside>
+	<footer>
+		<div class="page-container">
+			<p>&#169; Yifat Tshuva</p>
+		</div>	
+	</footer>
+	<script src="js/script.js"></script>
+</body>
+</html>
